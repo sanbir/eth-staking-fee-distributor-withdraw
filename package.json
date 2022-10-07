@@ -1,0 +1,12 @@
+{
+  "name": "eth-staking-fee-distributor-withdraw",
+  "version": "1.0.0",
+  "description": "Call withdraw on all FeeDistributor client instances with balances",
+  "scripts": {
+    "feeDistributorWithdraw": "node feeDistributorWithdraw.js"
+  },
+  "devDependencies": {
+    "dotenv": "16.0.3",
+    "ethers": "5.7.1"
+  }
+}
